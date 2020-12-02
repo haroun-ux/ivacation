@@ -1,0 +1,244 @@
+html {
+    background-image: linear-gradient(#b43933 , #aa723c);
+    background-repeat: no-repeat;
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 1.25rem;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    width: 1024px;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px 40px 20px;
+    border-bottom: 1px solid white;
+}
+
+.logo {
+    padding-top: 10px;
+}
+
+
+main {
+    min-height: 300px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.main2 {
+    min-height: 100px;
+    margin-top: 50px;
+}
+
+.content {
+    flex: 2;
+    padding-right: 100px;
+}
+
+h1 {
+    font-family: 'Playfair Display SC', serif;
+    font-size: 5rem;
+    margin-bottom: 1.5rem;
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+p {
+    line-height: 2rem;
+    padding-bottom: 0.5rem;
+}
+
+.pic {
+    flex: 1;
+}
+
+.pic img {
+    border-radius: 20px 50px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.cards {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.card1 {
+    min-height: 300px;
+    background-image: url(images/on-water\ for\ web.jpg);
+    background-size: cover;
+    background-position: bottom;
+    width: 30%;
+}
+
+.card2 {
+    min-height: 300px;
+    background-image: url(images/on-gardin\ for\ web.jpg);
+    background-size: cover;
+    background-position: bottom;
+    width: 30%;
+}
+
+.card3 {
+    min-height: 300px;
+    background-image: url(images/on-road\ for\ web.jpg);
+    background-size: cover;
+    background-position: bottom;
+    width: 30%;
+}
+
+.card1 , .card2 , .card3 {
+    padding: 30px 30px 20px 30px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+h2 {
+    font-family: 'Playfair Display SC', serif;
+    font-size: 2rem;
+    padding-top: 20px;
+}
+
+.cards p {
+    font-size: 0.8rem;
+    line-height: 1.25rem;
+    margin-top: 20px;
+}
+
+.cards i {
+    font-size: 100px;
+}
+
+
+
+.book {
+    background-color: white;
+    color: rgb(228, 40, 40);
+    font-family: 'Playfair Display SC', serif;
+    font-size: 18px;
+    padding: 11px 25px;
+    display: inline-block;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1px solid white;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.22);
+}
+
+.Nnn {
+    color: white;
+    font-family: 'Playfair Display SC', serif;
+    font-size: 18px;
+    border-radius: 4px;
+    border: 1px solid white;
+    margin-left: 5px;
+    padding: 11px 25px;
+    display: inline-block;
+    position: relative;
+}
+
+.book:hover {
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    transition-duration: 0.5s;
+}
+
+.Nnn:hover {
+    background-color: rgba(192, 192, 192, 0.118);
+    color: rgb(255, 255, 255);
+    transition-duration: 0.5s;
+}
+
+.testemonials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+.tbox {
+    width: 47%;
+    border: 1px solid white;
+    box-sizing: border-box;
+    padding: 50px;
+    margin-top: 50px;
+}
+
+
+.tbox :last-child {
+    font-size: 0.9rem;
+    padding-left: 20px;
+}
+
+.dropdown .Nnn {
+    background-color: rgba(33, 33, 33, 0.549);
+    width: 117px;
+    margin-left: -26px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 0px;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    padding-top: 13px;
+    text-align: center;
+}
+
+.Nnn:hover .dropdown {
+    display: block;
+}
+
+.dropdown .Nnn:hover   {
+    background-color: rgba(192, 192, 192, 0.118);
+}
+
+form {
+    margin-top: 50px;
+    padding-bottom: 100px;
+}
+
+.inputw {
+    margin-bottom: 20px;
+}
+
+input[type="text"] , input[type="email"] , textarea , select {
+    width: 100%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.85rem;
+    padding: 10px 20px;
+}
+
+.inlab {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.mar {
+    margin-right: 20px;
+}
+
+input[type=radio] {
+    margin-right: 10px;
+}
